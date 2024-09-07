@@ -1,7 +1,7 @@
 name: Laravel Demo
-  on:
-    push:
-      branches:[ $default-branch ]
+on:
+  push:
+    branches:[ $default-branch ]
 
 jobs:
   run: php artisan serve
